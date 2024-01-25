@@ -52,7 +52,7 @@ class _UnityAdsExampleState extends State<UnityAdsExample> {
       testMode: true,
       onComplete: () => print('Initialization Complete'),
       onFailed: (error, message) =>
-          print('Initialization Failed: $error $message'),
+          print('Initialization Fail: $error $message'),
     );
   }
 
